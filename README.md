@@ -32,22 +32,22 @@ README	&#x2705;
 
 ```
 (A) For Facebook, PubMed, TWeibo, Elliptc
-	Step-1: (attr_datasets.py) load initial files from attr_datasets.py and obtain the initial graph G-xxxx.gml with keywords
-	Step-2: (offline.py) run offline.py to obtain G+-xxxx.gml with Aux data
+	Step-1: (igraph_attr_datasets.py) load initial files from attr_datasets.py and obtain the initial graph G-xxxx.gml with keywords
+	Step-2: (igraph_offline.py) run offline.py to obtain G+-xxxx.gml with Aux data
 	Step-3: (argparser.py) set the query in argparser.py or in the command line
-    Step-4: (main.py) python main.py ................ (or not, if already set the query in argparser.py)
+    Step-4: (igraph_main.py) python main.py ................ (or not, if already set the query in argparser.py)
     
 (B) For synthetic
-	Step-1: (generate.py) generate the G-distribution.gml data graph with keywords
-	Step-2: (offline.py) run offline.py to obtain G+-xxxx.gml with Aux data
+	Step-1: (igraph_generate.py) generate the G-distribution.gml data graph with keywords
+	Step-2: (igraph_offline.py) run offline.py to obtain G+-xxxx.gml with Aux data
 	Step-3: (argparser.py) set the query in argparser.py or in the command line
-    Step-4: (main.py) python main.py ................ (or not, if already set the query in argparser.py)
+    Step-4: (igraph_main.py) python main.py ................ (or not, if already set the query in argparser.py)
     
 (C) For dblp_v14
 	Step-1: (dblp_yake.py) clear the source data, dblp.json
-	Step-2: (offline.py) get the graph with Aux data
+	Step-2: (igraph_offline.py) get the graph with Aux data
 	Step-3: (argparser.py) set the query in argparser.py or in the command line
-    Step-4: (main.py) python main.py ................ (or not, if already set the query in argparser.py)
+    Step-4: (igraph_main.py) python main.py ................ (or not, if already set the query in argparser.py)
 ```
 
 
